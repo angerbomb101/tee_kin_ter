@@ -227,7 +227,7 @@ def game():
         moneyL = Label(win, text=f"Your balance = 0", font=("Arial", 20))
 
 
-        ballsList = [canvas.create_oval(10,10,50,50)]
+        ballsList = [canvas.create_oval(10,20,50,60)]
         
         while True:
             for i in range(len(ballsList)):
